@@ -11,7 +11,7 @@
 
 
 
-<1>docker build -t    ctf_a    .      ctf_a是任意名的容器名末尾要加一个点
+<1>docker build -t    ctf_a    .      （ctf_a是任意名的容器名末尾要加一个点代表当前目录）
 <2>docker  run  -dit    -p   9999：80 ctf_a         指定映射端口9999
 
 
