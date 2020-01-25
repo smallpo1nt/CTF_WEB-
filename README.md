@@ -8,6 +8,9 @@
 
 2.对于初学出题可以写dockerfile文件更容易上手
 一个Dockerfile里面包含了包含了构建整个 image的完整命令。DOcker通过docker  build 执行Dockerfile中的一系列命令而自动构建image
+
+
+
 <1>docker build -t    ctf_a    .      ctf_a是任意名的容器名末尾要加一个点
 <2>docker  run  -dit    -p   9999：80 ctf_a         指定映射端口9999
 
@@ -15,6 +18,9 @@
 3.还有一种是傻瓜式部署方式docker-compose：用于定义和运行多容器的Docker应用程序工具。通过compose使用YML文件来配置应用程序需要的所有服务。然后，使用一个命令，就可以从YML文件配置中创建并启动所有服务(无须在终端中指定映射端口，查看YML文件看你当时配置的端口是多少即可
 )
 一条命令即可将你部署的docker傻瓜式搭建，很舒服
+
+
+
 docker-compose  up --build   -d   来启动并运行整个应用程序。
 
 最近比较乱，如果师傅可以耐下性子出两道web题陶冶情操，换点稳定收入也是不错选择，很多平台都在收高质量的ctf题，web只是一个方向，本文是小垃圾写的大神求放过
